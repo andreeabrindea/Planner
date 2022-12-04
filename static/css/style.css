@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+ul li {
+    cursor: pointer;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.circle {
+    border-color: red;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    color: red;
+}
+
+.title{
+    margin: auto;
+    color: black;
+    font-family: Jacques Francois, cursive;
+    font-size: 60px;
+}
+.tasks{
+
+    background-color: #FEE4E4;
+}
+.done {
+    text-decoration: line-through;
+}
+
+.addBtn {
+    border-color: #FEE4E4;
+    padding: 3px;
+    width: 10%;
+    background: white;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.addBtn:hover {
+    background-color: #D9D9D9;
+}
